@@ -186,11 +186,17 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.container-3 {
+    margin-top: 30px;
 }
 
 .container-4 {
     background-color: #fad94c;
+    height: 400px;
 }
 
 .box-3, .box-5 {
