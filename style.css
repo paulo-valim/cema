@@ -127,22 +127,23 @@ ul {
 .card-1 {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     background-color: #000;
     color:#fad94c;
-    width: 200px;
-    padding: 8px 32px;
+    width: 218px;
+    padding: 32px 32px;
     margin-top: 45px;
-    flex: ;
 }
 
 .title-3 {
     font-family: 'Brushability Sans';
     font-weight: 200;
     font-size: 24px;
+    margin-top: 0;
 }
 
 .text-1 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 12px;
     color: white;
     margin-top: 0;
@@ -151,6 +152,7 @@ ul {
 .price-1 {
     font-size: 14px;
     font-weight: 300;
+    margin-top: 0;
 }
 
 .price-2 {
@@ -161,14 +163,14 @@ ul {
 }
 
 .cta-1 {
-    width: 200px;
+    width: 190px;
     margin-top: -20px;
     font-size: 16px;
-    background: #0b66ba;
+    padding: 10px 0;
+    background: #f6276e;
     color: white;
     font-family: 'Brushability Sans';
-    font-weight: 600;
-    height: 40px;
+    font-weight: 900;
     border: none;
 }
 
@@ -182,7 +184,7 @@ ul {
     margin-top: -250px;
 }
 
-.container-3, .container-4 {
+.container-3, .container-4, .container-5 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,6 +204,7 @@ ul {
 .box-3, .box-5 {
     display: flex;
     flex-direction: column;
+    width: 1000px;
 }
 
 h1 {
@@ -222,6 +225,7 @@ h1 {
 
 h3 {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .box-4, .box-6 {
@@ -247,4 +251,98 @@ h3 {
 
 .icon-desc {
     text-align: center;
+}
+
+.box-7 {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f6276e;
+    width: 300px;
+    height: 250px;
+    padding: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Brushability Sans';
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.text-2 {
+    font-size: 12px;
+    color: white;
+    margin-top: 0;
+}
+
+.price-3 {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.price-4 {
+    font-size: 26px;
+    color: white;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.cta-2 { 
+    width: 230px;
+    padding: 10px 0;
+    font-size: 20px;
+    background-color: #fad94c;
+    font-family: 'Brushability Sans';
+    font-weight: 900;
+    color: #f6276e;
+    border: none;
+}
+
+.card-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 230px;
+    height: 180px;
+    padding: 70px;
+    background-color: #0b66ba;
+}
+
+.text-3 {
+    font-size: 10px;
+    color: white;
+    margin-top: 0;
+}
+
+.price-5 {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.price-6 {
+    font-size: 26px;
+    color: white;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.cta-3 { 
+    width: 200px;
+    padding: 10px 0;
+    font-size: 20px;
+    background-color: #fad94c;
+    font-family: 'Brushability Sans';
+    font-weight: 900;
+    color: #0b66ba;
+    border: none;
 }
